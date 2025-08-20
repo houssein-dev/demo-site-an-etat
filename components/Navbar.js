@@ -12,6 +12,7 @@ export default function Navbar() {
   const { t, language } = useLanguage()
   
   const menuItems = [
+    { href: '/home', label: t('home') },
     { href: '/', label: t('home') },
     { href: '/about', label: t('about') },
     { href: '/project', label: t('projects') },

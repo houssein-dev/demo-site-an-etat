@@ -27,7 +27,7 @@ export default function Layout({ children }) {
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 ml-3">
                   <Image
-                    src="/images/logo.jpg"
+                    src="./images/logo.jpg"
                     alt="Logo Agence Numérique"
                     width={40}
                     height={40}

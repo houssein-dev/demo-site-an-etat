@@ -35,7 +35,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center">
             <div className="w-12 h-12 ml-3">
               <Image
-                src="/images/logo.jpg"
+                src="./images/logo.jpg"
                 alt="Logo Agence Numérique"
                 width={48}
                 height={48}

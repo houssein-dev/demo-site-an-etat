@@ -7,7 +7,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Layout({ children }) {
   const { language, t } = useLanguage();
-  
+ 
   return (
     <div 
       className="min-h-screen flex flex-col bg-gray-50" 
@@ -27,7 +27,7 @@ export default function Layout({ children }) {
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 ml-3">
                   <Image
-                    src="./images/logo.jpg"
+                    src="https://houssein-dev.github.io/demo-site-an-etat//images/logo.jpg"
                     alt="Logo Agence Numérique"
                     width={40}
                     height={40}

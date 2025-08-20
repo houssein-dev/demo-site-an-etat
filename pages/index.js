@@ -62,7 +62,7 @@ export default function Home() {
               <div className="text-center">
                 <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
                   <Image
-                    src="/images/presentation.jpg"
+                    src="./images/presentation.jpg"
                     alt="صورة تقديمية للوكالة"
                     width={500}
                     height={400}
@@ -81,7 +81,7 @@ export default function Home() {
               <div className="text-center">
                 <div className="bg-white h-96 rounded-lg shadow-lg flex items-center justify-center mb-4">
                   <Image
-                    src="/images/directeur.jpg"
+                    src="./images/directeur.jpg"
                     alt="صورة المدير العام"
                     width={400}
                     height={400}
@@ -121,7 +121,7 @@ export default function Home() {
               {/* خبر 1 */}
               <div className="bg-gray-50 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
                 <Image
-                  src="/images/news1.jpg"
+                  src="./images/news1.jpg"
                   alt="خبر 1"
                   width={400}
                   height={250}
@@ -137,7 +137,7 @@ export default function Home() {
               {/* خبر 2 */}
               <div className="bg-gray-50 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
                 <Image
-                  src="/images/news2.jpg"
+                  src="./images/news2.jpg"
                   alt="خبر 2"
                   width={400}
                   height={250}
@@ -153,7 +153,7 @@ export default function Home() {
               {/* خبر 3 */}
               <div className="bg-gray-50 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
                 <Image
-                  src="/images/news3.jpg"
+                  src="./images/news3.jpg"
                   alt="خبر 3"
                   width={400}
                   height={250}

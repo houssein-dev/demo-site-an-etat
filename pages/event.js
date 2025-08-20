@@ -11,7 +11,7 @@ export default function Events() {
       excerpt: "تم تنظيم فعالية إطلاق البوابة الوطنية التي تهدف إلى تسهيل الوصول إلى جميع الخدمات الحكومية الإلكترونية من خلال منصة موحدة ومتطورة.",
       date: "2024-03-15",
       category: "إطلاق",
-      image: "/images/article1.jpg"
+      image: "./images/article1.jpg"
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export default function Events() {
       excerpt: "نُظمت ورشة تدريبية شاملة لتطوير قدرات الموظفين في استخدام التقنيات الحديثة وأدوات التحول الرقمي.",
       date: "2024-03-10",
       category: "تدريب",
-      image: "/images/article2.jpg"
+      image: "./images/article2.jpg"
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ export default function Events() {
       excerpt: "تم توقيع اتفاقيات شراكة استراتيجية مع عدة جامعات وطنية لتطوير البرامج الأكاديمية المتخصصة في المجال الرقمي.",
       date: "2024-03-05",
       category: "شراكات",
-      image: "/images/article3.jpg"
+      image: "./images/article3.jpg"
     },
     {
       id: 4,
@@ -35,16 +35,16 @@ export default function Events() {
       excerpt: "تم تقديم مشروع الهوية الرقمية الموحدة الذي سيسهل على المواطنين الوصول لجميع الخدمات الحكومية برقم موحد.",
       date: "2024-02-28",
       category: "مشاريع",
-      image: "/images/article4.jpg"
+      image: "./images/article4.jpg"
     }
   ];
 
   const carouselImages = [
-    "/images/slide1.jpg",
-    "/images/slide2.jpg",
-    "/images/slide3.jpg",
-    "/images/slide4.jpg",
-    "/images/slide5.jpg"
+    "./images/slide1.jpg",
+    "./images/slide2.jpg",
+    "./images/slide3.jpg",
+    "./images/slide4.jpg",
+    "./images/slide5.jpg"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
